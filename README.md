@@ -14,4 +14,4 @@ Using Flask, I re-used some the previously designed queries to present the jsoni
   * A JSON list of temperature observations
   * A JSON list of minimum, average and maximum temperature for a start or start-end range.
   
-Note that due to the session limitation present in the starter code, each pathway must be run as separate iterations of the app.py code. Initiating the session under each pathway seems like it would solve the issue, but I deferred to the structure provided.
+All necessary queries were run at the begining of the script, so that each pathway can be visited on the same instance of the app.
