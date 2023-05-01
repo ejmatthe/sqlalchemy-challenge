@@ -7,3 +7,11 @@ The next step was to perform an analysis on the precipitation data by finding th
 Then, I performed analysis on the station date, by both identifying the total number of stations, and determine which ones were most active (frequently updated). After querying the prior 12 months of data for the most active station, I created a histogram to show frequency of observed temperatures.
 
 ## Part 2: Design a Climate App
+Using Flask, I re-used some the previously designed queries to present the jsonified results. The code shows the detailed pathways, but they include:
+  * A homepage that lists all available routes.
+  * A JSON representation of 12 months of precipitation data
+  * A JSON list of stations
+  * A JSON list of temperature observations
+  * A JSON list of minimum, average and maximum temperature for a start or start-end range.
+  
+Note that due to the session limitation present in the starter code, each pathway must be run as separate iterations of the app.py code. Initiating the session under each pathway seems like it would solve the issue, but I deferred to the structure provided.
